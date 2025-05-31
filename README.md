@@ -1,5 +1,6 @@
 Alunos:
 Juan Pablo Rufino : 509982
+
 Felipe Kauan dos Santos Silva :
 
 Este repositório contém as implementações das questões propostas, organizadas em subdiretórios dentro da pasta Teste.
