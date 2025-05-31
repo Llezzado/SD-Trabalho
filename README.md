@@ -9,23 +9,35 @@ Teste/
 └── questao_4/       # Implementações de um serviço remoto  
 
 comandos para cada questão pelo terminal:
-1 -> java -cp bin Testes.questao_1.Test  
+1 -> 
+``` | 
+java -cp bin Testes.questao_1.Test  
+``` 
 2 -> 
+``` |
   java -cp bin Testes.questao_2.TesteSystemOut
-  
+```
+``` | 
   java -cp bin Testes.questao_2.TesteArquivo
-
+```
+``` |
   java -cp bin Testes.questao_2.TesteServidorTCP
   java -cp bin ServidorTCP 
+  ```
 3 -> 
-    
+   
     java -cp bin Testes.questao_3.TesteSystemIn < dados.bin
-    
-    java -cp bin Testes.questao_3.TesteArquivo < dados.bin
-
-    java -cp bin Testes.questao_3.TesteServidorTCP < dados.bin  
-                    java -cp bin Testes.questao_3.ServidorTCP  
+  ``` |
+  ```
+  ``` |
+  java -cp bin Testes.questao_3.TesteArquivo < dados.bin
+  ```
+  ``` |
+  java -cp bin Testes.questao_3.TesteServidorTCP < dados.bin  
+  java -cp bin Testes.questao_3.ServidorTCP
+  ```
 4 -> 
+``` |
     java -cp bin Testes.questao_4.ClienteRemoto  
     java -cp bin Testes.questao_3.ServidorRemoto  
-    
+``` 
