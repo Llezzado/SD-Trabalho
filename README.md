@@ -14,24 +14,30 @@ comandos para cada questão pelo terminal:
 java -cp bin Testes.questao_1.Test  
 ``` 
 2 -> 
+System_Out:
 ``` |
   java -cp bin Testes.questao_2.TesteSystemOut
 ```
+File:
 ``` | 
   java -cp bin Testes.questao_2.TesteArquivo
 ```
+TCP:
 ``` |
   java -cp bin Testes.questao_2.TesteServidorTCP
   java -cp bin ServidorTCP 
   ```
 3 -> 
-   
+   System_in:
+  
+   ``` |
     java -cp bin Testes.questao_3.TesteSystemIn < dados.bin
-  ``` |
   ```
+  File:
   ``` |
   java -cp bin Testes.questao_3.TesteArquivo < dados.bin
   ```
+  TCP:
   ``` |
   java -cp bin Testes.questao_3.TesteServidorTCP < dados.bin  
   java -cp bin Testes.questao_3.ServidorTCP
