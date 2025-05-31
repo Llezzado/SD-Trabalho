@@ -8,7 +8,6 @@ public abstract class Peca {
     private double preco;
     private int quantidadeEstoque;
 
-    // Construtor
     public Peca(String codigo, String nome, String marca, String modeloVeiculo, double preco, int quantidadeEstoque) {
         this.codigo = codigo;
         this.nome = nome;
@@ -18,7 +17,6 @@ public abstract class Peca {
         this.quantidadeEstoque = quantidadeEstoque;
     }
 
-    // Getters e Setters
     public String getCodigo() { return codigo; }
     public void setCodigo(String codigo) { this.codigo = codigo; }
 

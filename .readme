@@ -1,0 +1,16 @@
+As questões estão dentro do subdiretorio Teste, onde cada pasta representa cada resposta a questão
+
+questao_1- O seu arquivo Teste, demonstra a execução tanto da classe de modelo de compra no serviço online quanto do serviço de presencial.
+Para esecutar, em um terninal do diretorio execute:
+  java -cp bin Testes.questao_1.Test 
+
+questao_2- A classe definida para Outputstream é a classe "Peca". Onde para cada implementação, execute:
+
+  java -cp bin Testes.questao_2.TesteSystemOut //para o System.out
+  java -cp bin Testes.questao_2.TesteArquivo //para o arquivo de texto
+  java -cp bin Testes.questao_2.TesteServidorTCP & java -cp bin ServidorTCP //para o servidor TCP
+
+questao_3- Dentro da pasta stream, possui os arquivos de teste para cada implementação de stream.
+  java -cp bin Testes.questao_3.TesteSystemIn < dados.bin //para o System.in
+  java -cp bin Testes.questao_3.TesteArquivo < dados.bin //para o arquivo de texto
+  java -cp bin Testes.questao_3.TesteServidorTCP < dados.bin & java -cp bin Testes.questao_3.ServidorTCP //para o servidor TCP

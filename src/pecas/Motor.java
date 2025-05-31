@@ -1,6 +1,6 @@
 package pecas;
 public class Motor extends Peca {
-    private double potencia; // Em cavalos (HP)
+    private double potencia;
 
     public Motor(String codigo, String nome, String marca, String modeloVeiculo, double preco, int quantidadeEstoque, double potencia) {
         super(codigo, nome, marca, modeloVeiculo, preco, quantidadeEstoque);
